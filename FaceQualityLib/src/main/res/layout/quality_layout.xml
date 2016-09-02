@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_load_rootRel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!--<include-->
+        <!--android:id="@+id/quality_layout_title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--layout="@layout/title_layout" />-->
+
+    <Button
+        android:id="@+id/quality_layout_sureBtn"
+        style="@style/custom_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dip"
+        android:layout_marginLeft="45dip"
+        android:layout_marginRight="45dip"
+        android:text="功能列表"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/quality_layout_sureBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dip"
+        android:layout_marginLeft="45dip"
+        android:layout_marginRight="45dip"
+        android:gravity="left"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/quality_layout_corpImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_weight="1"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/quality_layout_fullimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dip"
+            android:layout_weight="1"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+</RelativeLayout>

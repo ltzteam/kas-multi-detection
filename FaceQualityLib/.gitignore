@@ -1,0 +1,5 @@
+/build
+
+# protected (so & model)
+/src/main/jniLibs/armeabi-v7a/*.so
+/src/main/res/raw/model
